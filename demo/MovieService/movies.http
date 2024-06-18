@@ -1,0 +1,39 @@
+//Création
+POST http://localhost:8081/movie
+Content-Type: application/json
+
+{"title":"toto", "length":"1"}
+
+###
+
+//GET 1
+GET http://localhost:8081/movie/1
+Content-Type: application/json
+###
+
+//Remplace
+PUT http://localhost:8081/movie/2
+Content-Type: application/json
+
+{"title":"toto", "length":"1"}
+
+###
+
+//Mise à jour partielle
+PATCH http://localhost:8081/movie/2
+Content-Type: application/json
+
+{"title":"toto", "length":"1"}
+
+###
+
+//GET All
+GET http://localhost:8081/movie
+Content-Type: application/json
+###
+
+//Suppression
+DELETE http://localhost:8081/movie/2
+Content-Type: application/json
+
+###
