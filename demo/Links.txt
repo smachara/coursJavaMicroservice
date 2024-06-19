@@ -10,3 +10,6 @@ http://localhost:8081/swagger-ui/index.html
 http://localhost:8082/actuator
 http://localhost:8082/h2-console/login.do
 http://localhost:8082/swagger-ui/index.html
+
+Serveur eureka
+http://localhost:8761/

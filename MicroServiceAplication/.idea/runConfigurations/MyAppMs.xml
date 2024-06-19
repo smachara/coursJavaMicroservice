@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MyAppMs" type="CompoundRunConfigurationType">
+    <toRun name="zipkin-server-3.4.0-exec.jar" type="JarApplication" />
+    <toRun name="ApiGatewayServiceApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="DemoApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="DiscoverServiceApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="MovieServiceApplication8081" type="SpringBootApplicationConfigurationType" />
+    <toRun name="MovieServiceApplication8082" type="SpringBootApplicationConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
